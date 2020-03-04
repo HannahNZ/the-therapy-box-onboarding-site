@@ -1,4 +1,27 @@
 @import url(font-awesome.min.css);
+
+article > ul.poke {
+list-style-type: none !important;
+padding: 0;
+margin: 0;
+}
+article > ul.poke > li {
+background: url('../img/poke.svg') no-repeat left top;
+background-size: 34px;
+height: 20px;
+padding-left: 22px;
+padding-top: 0px;
+padding-bottom: 30spx;
+margin-top: 29px;
+}
+
+article > ul.poke > li > a{
+    margin-left: 28px;
+}
+
+
+
+
 html,
 body,
 div,
@@ -288,7 +311,7 @@ h6.major {
     width: -ms-max-content;
     width: max-content;
     padding-bottom: 0.5rem;
-    margin: 0 0 2rem 0
+    margin: 0 0 2rem 0;
 }
 
 h1 {
@@ -1720,3 +1743,5 @@ body.is-preload #footer {
   100% {
     opacity:1;
 }
+
+

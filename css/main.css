@@ -11,7 +11,7 @@ background-size: 34px;
 height: 30px;
 padding-left: 22px;
 padding-top: 0px;
-padding-bottom: 30spx;
+padding-bottom: 30px;
 margin-top: 29px;
 }
 
@@ -1269,6 +1269,15 @@ body.is-preload #bg:before {
 @media screen and (max-width: 1680px) {
     #wrapper {
         padding: 3rem 2rem
+    }
+    article > ul.poke > li {
+    background: url('../img/poke.svg') no-repeat left top;
+    background-size: 34px;
+    height: 30px;
+    padding-left: 22px;
+    padding-top: 4px;
+    padding-bottom: 30px;
+    margin-top: 29px;
     }
 }
 

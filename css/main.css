@@ -4,6 +4,7 @@ article > ul.poke {
 list-style-type: none !important;
 padding: 0;
 margin: 0;
+margin-bottom: 15px;
 }
 article > ul.poke > li {
 background: url('../img/poke.svg') no-repeat left top;

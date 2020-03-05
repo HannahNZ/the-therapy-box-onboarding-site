@@ -1,4 +1,4 @@
-[![Run on repl.it](https://repl.it/badge/github/sojohnnysaid/development)](https://repl.it/github/https://github.com/sojohnnysaid/development?lang=html&ref=button)
+[![Run on repl.it](https://repl.it/badge/github/sojohnnysaid/development)](https://repl.it/github/sojohnnysaid/development)
 # development
 Development is a website development teams can use to help with:
 - onboarding new team members

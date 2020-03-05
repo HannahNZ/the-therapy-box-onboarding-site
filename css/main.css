@@ -1,27 +1,5 @@
 @import url(font-awesome.min.css);
 
-article > ul.poke {
-list-style-type: none !important;
-padding: 0;
-margin: 0;
-margin-bottom: 25px;
-}
-article > ul.poke > li {
-background: url('../img/poke.svg') no-repeat left top;
-background-size: 34px;
-height: 30px;
-padding-left: 22px;
-padding-top: 0px;
-padding-bottom: 30px;
-margin-top: 29px;
-}
-
-article > ul.poke > li > a{
-    margin-left: 28px;
-}
-
-
-
 
 html,
 body,
@@ -1267,6 +1245,54 @@ body.is-preload #bg:before {
     display: block
 }
 
+
+/*CUSTOM STYLES*/
+/*-------------*/
+
+
+.backBtn{ 
+float: right;
+margin-bottom: 19px;
+}
+
+article > ul.poke {
+list-style-type: none !important;
+padding: 0;
+margin: 0;
+margin-top: 50px;
+margin-bottom: 4px;
+}
+article > ul.poke > li {
+background: url('../img/poke.svg') no-repeat left top;
+background-size: 34px;
+height: 30px;
+padding-left: 22px;
+padding-top: 0px;
+padding-bottom: 30px;
+margin-top: 29px;
+}
+
+article > ul.poke > li > a{
+    margin-left: 28px;
+}
+
+a{ 
+    border-bottom: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1680px) {
     #wrapper {
         padding: 3rem 2rem
@@ -1747,11 +1773,15 @@ body.is-preload #footer {
 }
 
 @-ms-keyframes fadeIn {
-  0% {
+        0% {
     opacity:0;
-  }
-  100% {
-    opacity:1;
+    }
+    100% {
+        opacity:1;
+    }
 }
+
+
+
 
 

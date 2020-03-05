@@ -36,7 +36,7 @@
 			<div class="content">
 				<div class="inner">
 					<h1>development</h1>
-					<p>Explore | Learn | Have fun</p>
+					<p>Explore | <a href="#elements" style="border-bottom: none; cursor: text;">Learn</a> | Have fun</p>
 				</div>
 			</div>
 			<nav>
@@ -90,20 +90,40 @@
 	<span class="image main"><img src="./img/teams.png" alt="" /></span>
 	<ul class="poke">
 		<li><a href="#dotafromzero">DotaFromZero</a></li>
-		<li><a href="#dotafromzero">Vassar CIS</a></li>
+		<li><a href="#dotafromzero">hey let's start a new team!</a></li>
 	</ul>
+	<button class="backBtn" onclick="goBack()">back</button>
 </article>
 
 
+	<article id="dotafromzero">
+		<h2 class="major">Choose a project</h2>
+		<span class="image main"><img src="./img/dfz.png" alt="" /></span>
+		<ul class="poke">
+			<li><a href="#gpbot">general purpose discord bot</a></li>
+			<li><a href="#dfzwebsite">dotafromzero.com</a></li>
+		</ul>
+		<button class="backBtn" onclick="goBack()">back</button>
+	</article>
 
-<article id="dotafromzero">
-	<h2 class="major">Choose a project</h2>
-	<span class="image main"><img src="./img/dfz.png" alt="" /></span>
-	<ul class="poke">
-		<li><a href="#">general purpose discord bot</a></li>
-		<li><a href="#">dotafromzero.com</a></li>
-	</ul>
-</article>
+
+		<article id="gpbot">
+			<h2 class="major">discord bot</h2>
+			<span class="image main"><img src="./img/discord-banner.png" alt="" /></span>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed similique mollitia nesciunt voluptate, rem quam recusandae delectus iste possimus voluptatibus fuga et ad quis harum quas quia itaque autem alias!
+			</p>
+			<button class="backBtn" onclick="goBack()">back</button>
+		</article>
+
+		<article id="dfzwebsite">
+			<h2 class="major">dotafromzero.com</h2>
+			<span class="image main"><img src="./img/dfzwebsite-banner.png" alt="" /></span>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur reiciendis quod facilis, fugit saepe atque. Est velit ex ipsam magnam ad laboriosam hic nam, possimus error aperiam neque cum cupiditate.
+			</p>
+			<button class="backBtn" onclick="goBack()">back</button>
+		</article>
 
 
 
@@ -163,7 +183,7 @@
 
 <!-- elements -->
 <article id="elements">
-	<h2 class="major">elements</h2>
+	<h2 class="major">SECRET DISCOVERED!</h2>
 	
 <p>
 <section>
@@ -354,7 +374,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 <section>
 	<h3 class="major">Form</h3>
-	<form method="post" action="#">
+	<form method="get" action="#">
         <div class="fields">
             <div class="field half first">
                 <label for="demo-name">Name</label>
@@ -465,6 +485,11 @@ Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris a
 <script src="./js/skel.min.js"></script>
 <script src="./js/util.js"></script>
 <script src="./js/main.js"></script>
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
 
   </body>
 

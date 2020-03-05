@@ -1835,3 +1835,9 @@ article a:hover:after, a.magic:hover:after {
             transform: translate3d(-75%, 0%, 0);
   }
 }
+
+
+input[type="checkbox"]+label:before {
+    border-radius: 4px;
+    margin-top: 1px;
+}
